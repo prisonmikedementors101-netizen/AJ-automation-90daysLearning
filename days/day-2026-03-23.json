@@ -1,5 +1,40 @@
-{
-  "date": "2026-03-23",
-  "title": "Intro to CI with GitHub Actions",
-  "content": "# Day 2026-03-23 - Intro to CI with GitHub Actions\n\nObjective\n\n- Understand basics of GitHub Actions and how to set up a simple CI workflow.\n\nLesson\n\n1. What is GitHub Actions: a brief overview.\n2. Workflow files: YAML structure, triggers, jobs, steps.\n3. Example: run tests on push using actions/checkout, setup-node, run npm test.\n4. Secrets and tokens: where to store and how to use them (GITHUB_TOKEN vs PAT).\n\nExercise\n\n- Add a .github/workflows/ci.yml to this repo that runs tests on push to main.\n\nFurther reading\n\n- https://docs.github.com/en/actions\n\n"
-}
+{ "date":"2026-03-23", "title":"Intro to CI with GitHub Actions", "content": "# Day $TODAY - Intro to CI with GitHub Actions
+# Day $TODAY - Intro to CI with GitHub Actions
+
+
+Objective
+Objective
+
+
+- Understand basics of GitHub Actions and how to set up a simple CI workflow.
+- Understand basics of GitHub Actions and how to set up a simple CI workflow.
+
+
+Lesson
+Lesson
+
+
+1. What is GitHub Actions: a brief overview.
+1. What is GitHub Actions: a brief overview.
+2. Workflow files: YAML structure, triggers, jobs, steps.
+2. Workflow files: YAML structure, triggers, jobs, steps.
+3. Example: run tests on push using actions/checkout, setup-node, run npm test.
+3. Example: run tests on push using actions/checkout, setup-node, run npm test.
+4. Secrets and tokens: where to store and how to use them (GITHUB_TOKEN vs PAT).
+4. Secrets and tokens: where to store and how to use them (GITHUB_TOKEN vs PAT).
+
+
+Exercise
+Exercise
+
+
+- Add a .github/workflows/ci.yml to this repo that runs tests on push to main.
+- Add a .github/workflows/ci.yml to this repo that runs tests on push to main.
+
+
+Further reading
+Further reading
+
+
+- https://docs.github.com/en/actions
+- https://docs.github.com/en/actions" }
